@@ -1,14 +1,26 @@
 body{
 	margin: 0;
 	background-color: #0099cc;
+	background: repeating-linear-gradient(
+  45deg,
+  #0099cc,
+  #0099cc 10px,
+  #2884C0 10px,
+  #2884C0 20px
+)
+
 
 }
-h1{ 
-	font-family: sans-serif;
-	font-size: 70px;
-	text-decoration: none;
-	border-bottom: 15px ridge black;
-	
+
+img{
+	cursor: pointer;
+}
+ .border{
+ 	margin: 25px 200px 200px 200px;
+ 	width: 900px;
+ 	border: 40px solid white;
+ 	padding: 25px;
+
  }
 
 
