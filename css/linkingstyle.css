@@ -1,9 +1,30 @@
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	color: white;
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+}
+a:hover{
+	color: #292B2D;
+	text-decoration: underline;
+	font-family: 'Quicksand', sans-serif;
+} 
 body{
 	background-color: grey;
-	font-size: 28px;
+	font-size: 20px;
 	margin: 70px;
-	border: 20px solid white ;
-	font-family: serif;
-	font-color: solid white;
-
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	border-left: 5px solid white;
+	padding: 15px;	
 }
+
+
+
+
+	
