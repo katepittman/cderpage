@@ -1,8 +1,9 @@
 body{
-	background-color: aquamarine;
+	background-color: grey;
 	font-size: 28px;
 	margin: 70px;
 	border: 20px solid white ;
 	font-family: serif;
+	font-color: solid white;
 
 }
