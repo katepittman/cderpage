@@ -1,0 +1,72 @@
+.container{
+height: 600px;
+width: 700px;
+margin: 0 auto;
+}
+body{
+	background-color: #ffe6cc;
+  margin: 80px;
+}
+.pumpkin{
+    position: relative;
+    left: 110px;
+    height: 280px;
+    width: 360px;
+    border-radius: 220px/ 240px;
+    background-color: orange;
+    background-image: radial-gradient(ellipse at 300px 10px, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.1) 100%);
+}
+.pumpkin:before,
+.pumpkin:after {
+  content: '';
+  position: absolute;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+  border-radius: 180px / 240px;
+}
+
+.pumpkin:before {
+  left: 18%;
+  border-left: 3px solid rgba(0,0,0,0.1)
+}
+
+.pumpkin:after {
+  right: 18%;
+  border-right: 3px solid rgba(0,0,0,0.1)
+}
+.pumpkin_stem{
+ position: relative;
+  top: -25px;
+  left: 160px;
+  height: 40px;
+  width: 40px;
+  background-color: green;
+  
+}
+.eye{
+  position: absolute;
+  left: 70px;
+  bottom: 150px;
+  width: 0;
+      height: 0;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      border-bottom: 50px solid black;
+}
+.eye_right{
+  position: absolute;
+  left: 200px;
+  bottom: 150px;
+  width: 0;
+      height: 0;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      border-bottom: 50px solid black;
+}
+p{
+  left: 60px;
+  font-size: 70px;
+  font-family: 'Baloo Bhaijaan', cursive;
+}
