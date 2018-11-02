@@ -1,0 +1,60 @@
+@media only screen and (max-width: 400px){
+.container{
+	
+	width: 400px;
+}
+.top{
+	background-color: #0066cc;
+	width: 400px;
+}
+.bottom{
+	background-color: #808080;
+	width:400\px;
+}
+.type{ 
+	width:75px;
+	margin: 0;
+}
+button{
+	position: relative
+	left: 100px;
+	bottom: ;
+}
+h1{
+position: absolute;
+bottom: 600px;
+left: 100px;
+color: white;
+}
+p{ 
+	color: white;
+	font-size: 11px;
+	margin: 0;
+	
+
+}
+
+h2{
+margin: 0;	
+color: white;
+}
+img{
+	width: 300px;
+}
+.image1{
+	width: 400px;
+
+}
+.image2{
+width: 400px;
+}
+.image3{
+width: 400px;
+}
+.image4{
+width: 400px;
+}
+.videos{
+	margin: 0 auto;
+}
+}
