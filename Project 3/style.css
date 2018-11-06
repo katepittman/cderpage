@@ -1,19 +1,19 @@
-@media only screen and (max-width: 400px){
+@media only screen and (min-width: 0px) and (max-width: 406px){
 .container{
 	
-	width: 400px;
+	width: 406px;
 }
 .top{
 	background-color: #0066cc;
-	width: 400px;
+	width: 406px;
 }
 .bottom{
 	background-color: #808080;
-	width:400\px;
+	width:406px;
 }
 .type{ 
-	width:75px;
-	margin: 0;
+	width:150px;
+	margin: 0 auto;
 }
 button{
 	position: relative
@@ -22,39 +22,293 @@ button{
 }
 h1{
 position: absolute;
-bottom: 600px;
-left: 100px;
+bottom: 550px;
+left: 80px;
 color: white;
+font-size: 30px;
+font-family: 'Alfa Slab One', cursive;
 }
 p{ 
-	color: white;
-	font-size: 11px;
-	margin: 0;
-	
-
+color: white;
+font-size: 12px;
+margin: 0;
+line-height:20px;
+font-family: 'Poppins', sans-serif;
 }
-
+h3{
+font-family: 'Archivo Black', sans-serif;
+color:white;
+}
 h2{
 margin: 0;	
 color: white;
+font-family: 'Archivo Black', sans-serif;
+}
+h4{
+color: white;
+font-family: 'Archivo Black', sans-serif;
 }
 img{
-	width: 300px;
+	width: 406px;
 }
 .image1{
-	width: 400px;
-
+	width: 406px;
 }
 .image2{
-width: 400px;
+width: 406px;
 }
 .image3{
-width: 400px;
+width: 406px;
 }
 .image4{
-width: 400px;
+width: 406px;
 }
 .videos{
 	margin: 0 auto;
+}
+}
+@media only screen and (min-width: 407px) and (max-width: 768px){
+.container{
+	width: 768px;
+}
+.top{
+	background-color: #0066cc;
+	width: 768px;
+}
+.bottom{
+	background-color: #808080;
+	width:768px;
+}
+.type{ 
+	color: white;
+	width:300px;
+	margin: 0 auto;
+}
+h1{
+position: absolute;
+bottom: 475px;
+left: 200px;
+color: white;
+font-size:	50px;
+font-family: 'Alfa Slab One', cursive;
+}
+h2{
+margin: 0;	
+color: white;
+font-size: 25px;
+font-family: 'Archivo Black', sans-serif;
+}
+h3{
+	font-size: 35px;
+	font-family: 'Archivo Black', sans-serif;
+}
+h4{
+	color: white;
+	font-family: 'Archivo Black', sans-serif;
+}
+p{
+	font-size: 18px;
+	line-height:25px;
+	font-family: 'Poppins', sans-serif;
+}
+img{
+	width: 768px;
+}
+.image1{
+	width: 768px;
+
+}
+.image2{
+width: 768px;
+}
+.image3{
+width: 768px;
+}
+.image4{
+width: 768px;
+}
+}
+@media only screen and (min-width: 769px)and (max-width: 1024px){
+.container{
+	width: 1024px;
+}
+.top{
+	background-color: #0066cc;
+	width: 1024px;
+}
+.bottom{
+	background-color: #808080;
+	width:1024px;
+}
+.type{ 
+	color: white;
+	width:500px;
+	margin: 0 auto;
+}
+h4{
+	font-size: 25px;
+	font-family: 'Archivo Black', sans-serif;
+}
+h3{
+	font-size: 40px;
+	font-family: 'Archivo Black', sans-serif;
+}
+h2{
+margin: 0;	
+color: white;
+font-size: 40px;
+font-family: 'Archivo Black', sans-serif;
+}
+h1{
+position: absolute;
+bottom: 150px;
+left: 350px;
+color: white;
+font-size: 100px;
+font-family: 'Alfa Slab One', cursive;
+}
+p{
+font-size: 20px;
+line-height:	25px;
+font-family: 'Poppins', sans-serif;
+}
+img{
+	width: 1024px;
+}
+.image1{
+	width: 1024px;
+
+}
+.image2{
+width: 1024px;
+}
+.image3{
+width: 1024px;
+}
+.image4{
+width: 1024px;
+}
+}
+@media only screen and (min-width: 769px)and (max-width: 1024px){
+.container{
+	width: 1024px;
+}
+.top{
+	background-color: #0066cc;
+	width: 1024px;
+}
+.bottom{
+	background-color: #808080;
+	width:1024px;
+}
+.type{ 
+	color: white;
+	width:500px;
+	margin: 0 auto;
+}
+h4{
+	font-size: 25px;
+	font-family: 'Archivo Black', sans-serif;
+}
+h3{
+	font-size: 40px;
+	font-family: 'Archivo Black', sans-serif;
+}
+h2{
+margin: 0;	
+color: white;
+font-size: 40px;
+font-family: 'Archivo Black', sans-serif;
+}
+h1{
+position: absolute;
+bottom: 350px;
+left: 175px;
+color: white;
+font-size: 80px;
+font-family: 'Alfa Slab One', cursive;
+}
+p{
+font-size: 20px;
+line-height:	25px;
+font-family: 'Poppins', sans-serif;
+}
+img{
+	width: 1024px;
+}
+.image1{
+	width: 1024px;
+
+}
+.image2{
+width: 1024px;
+}
+.image3{
+width: 1024px;
+}
+.image4{
+width: 1024px;
+}
+}
+@media only screen and (min-width: 1025px)and (max-width: 1440px){
+.container{
+	width: 1440px;
+}
+.top{
+	background-color: #0066cc;
+	width: 1440px;
+}
+.bottom{
+	background-color: #808080;
+	width:1440px;
+}
+.type{ 
+	color: white;
+	width:800px;
+	margin: 0 auto;
+}
+h4{
+	font-size: 45px;
+	font-family: 'Archivo Black', sans-serif;
+}
+h3{
+	font-size: 50px;
+	font-family: 'Archivo Black', sans-serif;
+}
+h2{
+margin: 0;	
+color: white;
+font-size: 40px;
+font-family: 'Archivo Black', sans-serif;
+}
+h1{
+position: absolute;
+bottom: 325px;
+left: 300px;
+color: white;
+font-size: 100px;
+font-family: 'Alfa Slab One', cursive;
+}
+p{
+font-size: 30px;
+line-height:	45px;
+font-family: 'Poppins', sans-serif;
+}
+img{
+	width: 1440px;
+}
+.image1{
+	width: 1440px;
+
+}
+.image2{
+width: 1440px;
+}
+.image3{
+width: 1440px;
+}
+.image4{
+width: 1440px;
+
 }
 }
