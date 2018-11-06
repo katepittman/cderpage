@@ -29,7 +29,7 @@ button{
 }
 h1{
 position: absolute;
-bottom: 600px;
+bottom: 300px;
 left: 60px;
 color: white;
 font-size: 30px;
@@ -132,6 +132,7 @@ h4{
 	color: white;
 	font-family: 'Archivo Black', sans-serif;
 	letter-spacing: 2.5px;
+	font-size: 22px;
 }
 p{
 	font-size: 18px;
