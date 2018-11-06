@@ -1,24 +1,31 @@
 @media only screen and (min-width: 0px) and (max-width: 406px){
+body{
+	margin: 0;
+}
 .container{
 	
 	width: 406px;
 }
 .top{
 	background-color: #0066cc;
-	width: 406px;
+	width: 100%;
 }
 .bottom{
 	background-color: #808080;
-	width:406px;
+	width:100%;
 }
 .type{ 
-	width:150px;
-	margin: 0 auto;
+	width:300px;
+	margin: 0 50px;
 }
 button{
-	position: relative
-	left: 100px;
-	bottom: ;
+	 background-color: #0066cc; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
 }
 h1{
 position: absolute;
@@ -27,10 +34,11 @@ left: 80px;
 color: white;
 font-size: 30px;
 font-family: 'Alfa Slab One', cursive;
+letter-spacing: 3px;
 }
 p{ 
 color: white;
-font-size: 12px;
+font-size: 14px;
 margin: 0;
 line-height:20px;
 font-family: 'Poppins', sans-serif;
@@ -38,73 +46,83 @@ font-family: 'Poppins', sans-serif;
 h3{
 font-family: 'Archivo Black', sans-serif;
 color:white;
+letter-spacing: 2px;
 }
 h2{
 margin: 0;	
 color: white;
 font-family: 'Archivo Black', sans-serif;
+letter-spacing: 2px;
 }
 h4{
 color: white;
 font-family: 'Archivo Black', sans-serif;
+letter-spacing: 2px;
 }
 img{
-	width: 406px;
+	width: 100%;
 }
 .image1{
-	width: 406px;
+	width: 100%;
 }
 .image2{
-width: 406px;
+width: 100%;
 }
 .image3{
-width: 406px;
+width: 100%;
 }
 .image4{
-width: 406px;
+width: 100%;
 }
 .videos{
 	margin: 0 auto;
 }
 }
 @media only screen and (min-width: 407px) and (max-width: 768px){
+body{
+margin: 0;
+}
 .container{
-	width: 768px;
+width: 768px;
 }
 .top{
 	background-color: #0066cc;
-	width: 768px;
+	width: 100%;
 }
 .bottom{
 	background-color: #808080;
-	width:768px;
+	width:100%;
 }
 .type{ 
 	color: white;
-	width:300px;
-	margin: 0 auto;
+	width:500px;
+	margin: 0  100px;
 }
 h1{
 position: absolute;
-bottom: 475px;
+bottom: 540px;
 left: 200px;
 color: white;
 font-size:	50px;
 font-family: 'Alfa Slab One', cursive;
+letter-spacing: 3px;
 }
 h2{
 margin: 0;	
 color: white;
 font-size: 25px;
 font-family: 'Archivo Black', sans-serif;
+letter-spacing: 1px;
 }
 h3{
 	font-size: 35px;
 	font-family: 'Archivo Black', sans-serif;
+	letter-spacing: 1px;
 }
 h4{
 	color: white;
 	font-family: 'Archivo Black', sans-serif;
+	letter-spacing: 2.5px;
 }
 p{
 	font-size: 18px;
@@ -112,23 +130,26 @@ p{
 	font-family: 'Poppins', sans-serif;
 }
 img{
-	width: 768px;
+	width: 100%;
 }
 .image1{
-	width: 768px;
+	width: 100%;
 
 }
 .image2{
-width: 768px;
+width: 100%;
 }
 .image3{
-width: 768px;
+width: 100%;
 }
 .image4{
-width: 768px;
+width: 100%;
 }
 }
 @media only screen and (min-width: 769px)and (max-width: 1024px){
+body{
+	margin: 0;
+}
 .container{
 	width: 1024px;
 }
@@ -173,20 +194,20 @@ line-height:	25px;
 font-family: 'Poppins', sans-serif;
 }
 img{
-	width: 1024px;
+	width: 100%;
 }
 .image1{
-	width: 1024px;
+	width: 100%;
 
 }
 .image2{
-width: 1024px;
+width: 100%;
 }
 .image3{
-width: 1024px;
+width: 100%;
 }
 .image4{
-width: 1024px;
+width: 100%;
 }
 }
 @media only screen and (min-width: 769px)and (max-width: 1024px){
@@ -209,58 +230,65 @@ width: 1024px;
 h4{
 	font-size: 25px;
 	font-family: 'Archivo Black', sans-serif;
+	letter-spacing: 2px;
 }
 h3{
 	font-size: 40px;
 	font-family: 'Archivo Black', sans-serif;
+	letter-spacing: 2px;
 }
 h2{
 margin: 0;	
 color: white;
 font-size: 40px;
 font-family: 'Archivo Black', sans-serif;
+letter-spacing: 2px;
 }
 h1{
 position: absolute;
-bottom: 350px;
+bottom: 440px;
 left: 175px;
 color: white;
 font-size: 80px;
 font-family: 'Alfa Slab One', cursive;
+letter-spacing: 3px;
 }
 p{
-font-size: 20px;
+font-size: 17px;
 line-height:	25px;
 font-family: 'Poppins', sans-serif;
 }
 img{
-	width: 1024px;
+	width: 100%;
 }
 .image1{
-	width: 1024px;
+	width: 100%;
 
 }
 .image2{
-width: 1024px;
+width: 100%;
 }
 .image3{
-width: 1024px;
+width: 100%;
 }
 .image4{
-width: 1024px;
+width: 100%;
 }
 }
 @media only screen and (min-width: 1025px)and (max-width: 1440px){
+body{
+	margin: 0;
+}
 .container{
-	width: 1440px;
+	width: 100vw;
 }
 .top{
 	background-color: #0066cc;
-	width: 1440px;
+	width: 100%;
 }
 .bottom{
 	background-color: #808080;
-	width:1440px;
+	width:100%;
 }
 .type{ 
 	color: white;
@@ -268,18 +296,21 @@ width: 1024px;
 	margin: 0 auto;
 }
 h4{
-	font-size: 45px;
+	font-size: 30px;
 	font-family: 'Archivo Black', sans-serif;
+	letter-spacing: 2px;
 }
 h3{
-	font-size: 50px;
+	font-size: 35px;
 	font-family: 'Archivo Black', sans-serif;
+	letter-spacing: 2px;
 }
 h2{
 margin: 0;	
 color: white;
-font-size: 40px;
+font-size: 35px;
 font-family: 'Archivo Black', sans-serif;
+letter-spacing: 2px;
 }
 h1{
 position: absolute;
@@ -288,27 +319,28 @@ left: 300px;
 color: white;
 font-size: 100px;
 font-family: 'Alfa Slab One', cursive;
+letter-spacing: 3px;
 }
 p{
-font-size: 30px;
-line-height:	45px;
+font-size: 22px;
+line-height:	30px;
 font-family: 'Poppins', sans-serif;
 }
 img{
-	width: 1440px;
+	width: 100%;
 }
 .image1{
-	width: 1440px;
+	width: 100%;
 
 }
 .image2{
-width: 1440px;
+width: 100%;
 }
 .image3{
-width: 1440px;
+width: 100%;
 }
 .image4{
-width: 1440px;
-
+width: 100%;
 }
-}
+.videos{
+	margin: auto;
