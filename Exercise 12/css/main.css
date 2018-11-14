@@ -1,0 +1,58 @@
+.bluebox{
+	width: 100vw;
+	height: 100vh;
+	background-color:  #33ccff;
+	margin: 0;
+}
+.creambox{
+	width: 100vw;
+	height: 100vh;
+	background-color:  #ffffe6;
+	margin: 0;
+}
+.moveL{
+	left: 0;
+}
+
+.mintbox{
+	width: 100vw;
+	height: 100vh;
+	background-color:  #99ffcc;
+	margin: 0;
+}
+.redbox{
+	width: 100vw;
+	height: 100vh;
+	background-color:  #ffcccc;
+	margin: 0;
+}
+.pinkbox{
+	width: 100vw;
+	height: 100vh;
+	background-color:  #ffccff;
+	margin: 0;
+}
+.purplebox{
+	width: 100vw;
+	height: 100vh;
+	background-color:  #ccccff;
+	margin: 0;
+}
+h1{
+	margin: 0;
+	color: black;
+	font-family: 'Pattaya', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 285px;
+
+}
+h2{
+	margin: 0;
+	color: black;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	padding-top: 300px;
+	font-size: 35px;
+
+}
