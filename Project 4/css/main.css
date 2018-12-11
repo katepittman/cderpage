@@ -1,20 +1,222 @@
-body{
-	background-image: linear-gradient(#000080, white);
-}
-.top{
-	width: 1439px;
-	height:711px;
+body {
 	margin: 0;
 }
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+@media only screen and (min-width: 0px) and (max-width: 406px){
+.top{
+	position: relative;
+	top: 0;
+	width: 406;
+	height:700px;
+	margin: 0;
+}
+
 h1{
 	position: relative;
-	left: 650px;
-	top:700px;
+	top:-225px;
+	color: white;
+	font-size: 45px;
+	font-family: 'Abril Fatface', cursive;
+	text-align: center;
+}
+.top img{
+	width: 100%; height:400px;
+}
+a{
+	position: relative;
+	top:-145px;
+	background-color: white;
+    color: black;
+    padding: 10px 17px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+}
+img{
+	margin: 0;
+	position: relative;
+	top: -130px;
+	
+}
+.row{
+	position: relative;
+	top: -300px;
+	width: 500px;
+	height: 700px;
+	float: left;
+	margin:60px;
+	
+}
+body{
+	background-image: linear-gradient(#000080, white);	
+
+}	
+	}
+	@media only screen and (min-width: 407px) and (max-width: 768px){
+.top{
+	position: relative;
+	top: 0;
+	width: 768px;
+	height:700px;
+	margin: 0;
+}
+
+h1{
+	position: relative;
+	top:-225px;
 	color: white;
 	font-size: 50px;
+	font-family: 'Abril Fatface', cursive;
+	text-align: center;
 }
-.fruits{
-	padding: 30px;
-	width: 1439px;
+.top img{
+	width: 100%; height:500px;
+}
+a{
+	position: relative;
+	top:-145px;
+	background-color: white;
+    color: black;
+    padding: 10px 17px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+}
+img{
 	margin: 0;
+	position: relative;
+	top: -130px;
+	
+}
+.row{
+	width: 500px;
+	height: 700px;
+	float: left;
+	margin:60px;
+	position: relative;
+	top: -200px;
+	padding-left: 175px;
+	
+}
+body{
+	background-image: linear-gradient(#000080, white);	
+
+}
+}
+@media only screen and (min-width: 769px)and (max-width: 1024px){
+.top{
+	position: relative;
+	top: 0;
+	width: 1024px;
+	height:700px;
+	margin: 0;
+}
+.top img{
+	width: 100%px; height:600px;
+}
+
+h1{
+	position: relative;
+	
+	top:-225px;
+	color: white;
+	font-size: 50px;
+	font-family: 'Abril Fatface', cursive;
+	text-align: center;
+}
+.top img{
+	width: 100%; height:700px;
+}
+a{
+	position: relative;
+	top:-145px;
+	background-color: white;
+    color: black;
+    padding: 10px 17px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+}
+img{
+	margin: 0;
+	position: relative;
+	top: -130px;
+	
+}
+.row{
+	width: 500px;
+	height: 700px;
+	float: left;
+	margin:60px;
+	padding-left: 300px;
+	
+}
+body{
+	background-image: linear-gradient(#000080, white);	
+
+}
+}
+@media only screen and (min-width: 1025px)and (max-width: 1440px){
+.top{
+	position: relative;
+	top: 0;
+	width: 1439px;
+	height:700px;
+	margin: 0;
+}
+
+h1{
+	position: relative;
+	/*left: 650px;*/
+	top:-225px;
+	color: white;
+	font-size: 50px;
+	font-family: 'Abril Fatface', cursive;
+	text-align: center;
+}
+.top img{
+	width: 100%; height:700px;
+}
+a{
+	position: relative;
+	top:-145px;
+	background-color: white;
+    color: black;
+    padding: 10px 17px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+}
+img{
+	margin: 0;
+	position: relative;
+	top: -130px;
+	
+}
+.row{
+	width: 1050px;
+	/*height: 300px;*/
+	float: left;
+	padding-left: 175px;
+
+	
+}
+.row .img {
+	margin: 25px;
+	float: left;
+}
+body{
+	background-image: linear-gradient(#000080, white);	
+
+}
 }
